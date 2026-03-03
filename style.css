@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+
+#h-forecast::-webkit-scrollbar {
+  height: 8px;
+}
+
+#h-forecast::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+#h-forecast::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#h-forecast::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.6);
+}
